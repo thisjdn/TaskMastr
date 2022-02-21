@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Taskmaster
+@testable import Taskmastr
 
 class TaskmasterTests: XCTestCase {
 

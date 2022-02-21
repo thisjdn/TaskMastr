@@ -14,11 +14,12 @@
 		D7416C64279DC42B0006CFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7416C63279DC42B0006CFF9 /* Assets.xcassets */; };
 		D7416C67279DC42B0006CFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7416C65279DC42B0006CFF9 /* LaunchScreen.storyboard */; };
 		D7416C72279DC42B0006CFF9 /* TaskmasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7416C71279DC42B0006CFF9 /* TaskmasterTests.swift */; };
-		D7416C7C279DC42B0006CFF9 /* TaskmasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7416C7B279DC42B0006CFF9 /* TaskmasterUITests.swift */; };
+		D7416C7C279DC42B0006CFF9 /* TaskmastrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7416C7B279DC42B0006CFF9 /* TaskmastrUITests.swift */; };
 		D7416C7E279DC42B0006CFF9 /* TaskmasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7416C7D279DC42B0006CFF9 /* TaskmasterUITestsLaunchTests.swift */; };
 		D7416C90279DC54B0006CFF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7416C8F279DC54B0006CFF9 /* Constants.swift */; };
 		D7416C93279DC6D20006CFF9 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7416C91279DC6D20006CFF9 /* DataModel.xcdatamodeld */; };
 		D7416C95279E1D7C0006CFF9 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7416C94279E1D7C0006CFF9 /* CategoryTableViewController.swift */; };
+		D7A5A71427C30BFC00435FDE /* ListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5A71327C30BFC00435FDE /* ListViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +51,12 @@
 		D7416C6D279DC42B0006CFF9 /* TaskmastrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskmastrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7416C71279DC42B0006CFF9 /* TaskmasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskmasterTests.swift; sourceTree = "<group>"; };
 		D7416C77279DC42B0006CFF9 /* TaskmastrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskmastrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7416C7B279DC42B0006CFF9 /* TaskmasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskmasterUITests.swift; sourceTree = "<group>"; };
+		D7416C7B279DC42B0006CFF9 /* TaskmastrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskmastrUITests.swift; sourceTree = "<group>"; };
 		D7416C7D279DC42B0006CFF9 /* TaskmasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskmasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D7416C8F279DC54B0006CFF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D7416C92279DC6D20006CFF9 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		D7416C94279E1D7C0006CFF9 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		D7A5A71327C30BFC00435FDE /* ListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		D7416C70279DC42B0006CFF9 /* TaskmasterTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7A5A71327C30BFC00435FDE /* ListViewControllerTests.swift */,
 				D7416C71279DC42B0006CFF9 /* TaskmasterTests.swift */,
 			);
 			path = TaskmasterTests;
@@ -126,7 +129,7 @@
 		D7416C7A279DC42B0006CFF9 /* TaskmasterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D7416C7B279DC42B0006CFF9 /* TaskmasterUITests.swift */,
+				D7416C7B279DC42B0006CFF9 /* TaskmastrUITests.swift */,
 				D7416C7D279DC42B0006CFF9 /* TaskmasterUITestsLaunchTests.swift */,
 			);
 			path = TaskmasterUITests;
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A5A71427C30BFC00435FDE /* ListViewControllerTests.swift in Sources */,
 				D7416C72279DC42B0006CFF9 /* TaskmasterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7416C7C279DC42B0006CFF9 /* TaskmasterUITests.swift in Sources */,
+				D7416C7C279DC42B0006CFF9 /* TaskmastrUITests.swift in Sources */,
 				D7416C7E279DC42B0006CFF9 /* TaskmasterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
